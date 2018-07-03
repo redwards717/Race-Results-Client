@@ -1,0 +1,18 @@
+.resultsTable {
+    border: white 1px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 5px 5px 5px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0em 2em 0em 2em;
+}
+
+td, th{
+    text-align: center;
+}
+.raceName{
+    text-align: left;
+}
+td img{
+    cursor: pointer;
+}

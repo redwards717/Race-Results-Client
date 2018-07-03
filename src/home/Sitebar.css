@@ -1,0 +1,16 @@
+p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.siteBar{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+h3{
+    color: white;
+}
+.settingsBtn {
+    position: relative;
+    top: 0em;
+    right: -20em;
+}

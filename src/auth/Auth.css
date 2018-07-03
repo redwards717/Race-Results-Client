@@ -1,0 +1,14 @@
+.auth{
+    border: rgba(255, 255, 255, .8) 1px solid;
+    background: rgba(255, 255, 255, .85);
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 5px 5px 5px;  
+}
+h4{
+    text-align: center; 
+}
+.btnRow{
+    justify-content: center;
+}
+  
