@@ -69,7 +69,7 @@ class RacesIndex extends Component {
 
     render() {
         var races = this.state.races ?
-            <RaceTable races={this.state.races} delete={this.raceDelete} update={this.setUpdatedRace}/> :
+            <RaceTable races={this.state.races} delete={this.raceDelete} update={this.setUpdatedRace} /> :
             <h2>No Race results to show yet, Start submitting your race results!</h2>
         return (
             <div>

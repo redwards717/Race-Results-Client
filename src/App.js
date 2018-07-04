@@ -13,7 +13,7 @@ class App extends Component {
       sessionToken: '',
       email: '',
       first_name: '',
-      team: ''
+      team: '',
     }
   }
 
@@ -29,7 +29,7 @@ class App extends Component {
     this.setState({
         email: data.user.email,
         first_name: data.user.first_name,
-        team: data.user.team
+        team: data.user.team,
     })
 
   setSessionState = (token) => {
@@ -50,7 +50,7 @@ class App extends Component {
       return (
         <Switch>
           <Route path='/' exact>
-            <Dashboard sessionToken={this.state.sessionToken} getName={this.getName} team={this.state.team}/>
+            <Dashboard sessionToken={this.state.sessionToken} getName={this.getName} team={this.state.team} />
           </Route>
         </Switch>
       )
